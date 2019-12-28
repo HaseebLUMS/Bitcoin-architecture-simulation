@@ -1,5 +1,4 @@
 /*
-Although code is self-explanatory, however PFA the scheduler logic for formality:
 1) Whenever a job comes:
 	a) it is broken to chunks of size maxChunk (last chunk might be lesser in size),
 	b) It is checked whether miners are present or free
